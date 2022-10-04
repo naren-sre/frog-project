@@ -36,3 +36,6 @@ The nginix based load balancer will be switching between 4 different web servers
 
 ## Post testing
 `$docker-compose down`
+
+
+
