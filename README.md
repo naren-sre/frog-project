@@ -25,7 +25,8 @@ After downloading the files as shown above run the follwing command
 `$ docker ps`
 
 ## Testing:
-open a broswer in your pc and go to localhost:8080
+curl from your terminal in your pc and go to localhost:8080
+`curl -s http://localhost:8080/?update_=10 | grep -i fro`
 Hit refresh or open multiple pages from browser and notice the contianer name will be different for each request
 The nginix based load balancer will be switching between 4 different web servers ( with hostname displayed for each request)
 
