@@ -37,5 +37,11 @@ The nginix based load balancer will be switching between 4 different web servers
 ## Post testing
 `$docker-compose down`
 
+Sources:
+https://hub.docker.com/_/nginx
+
+https://stackoverflow.com/questions/24168129/use-hostname-in-sed-substitution
+
+http://nginx.org/en/docs/http/load_balancing.html
 
 
