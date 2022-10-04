@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    client:
+      build: client  
+      deploy:
+        replicas: 4 
+    lbr: 
+      build: lbr 
+      ports:
+       - "8080:8080"
