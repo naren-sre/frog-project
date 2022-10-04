@@ -6,8 +6,11 @@ This project uses Nginx as the Load Balancer to balance traffic between the two 
 
 ## Pre-requisites 
 First, you will need to make sure git, Docker and Docker compose are installed on your laptop/workstation 
+
 [Git Installation](https://git-scm.com/downloads)
+
 [Docker Installation](https://docs.docker.com/engine/install/)
+
 [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Clone the project 
@@ -25,23 +28,28 @@ After downloading the files as shown above run the follwing command
 `$ docker ps`
 
 ## Testing:
-curl from your terminal in your pc and go to localhost:8080
+use curl command from  your terminal in your pc/workstation and go to http://localhost:8080
 
-`curl -s http://localhost:8080/?update_=10 | grep -i fro`
+`curl -s http://localhost:8080/?update_=10 | grep -i frog`
+
+## Testing multiple requeests at once
 
 `curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080`
 
-Hit refresh or open multiple pages from browser and notice the contianer name will be different for each request
-The nginix based load balancer will be switching between 4 different web servers ( with hostname displayed for each request)
+
+The nginix based load balancer(lbr) will be switching between 4 different web servers named "client" ( with hostname displayed for each request)
 
 ## Post testing
+Use this command to bring the contianers down.
+
 `$docker-compose down`
 
-Sources:
+Sources referred.:
 https://hub.docker.com/_/nginx
 
 https://stackoverflow.com/questions/24168129/use-hostname-in-sed-substitution
 
 http://nginx.org/en/docs/http/load_balancing.html
 
+https://stackoverflow.com/questions/27355270/docker-nginx-deployment-entrypoint
 
