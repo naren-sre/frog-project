@@ -20,7 +20,7 @@ First, you will need to make sure git, Docker and Docker compose are installed o
 ## Run the application using docker compose 
 After downloading the files as shown above run the follwing command
 
-`$ cd test_project`
+`$ cd frog_project`
 
 `$ docker-compose up -d --build`
 
