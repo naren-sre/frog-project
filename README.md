@@ -38,7 +38,7 @@ use curl command from  your terminal in your pc/workstation and go to http://loc
 
 ## Testing multiple requests at once
 
-`curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080`
+`curl -s http://localhost:8080 | grep -i frog && curl -s http://localhost:8080 | grep -i frog && curl -s http://localhost:8080 | grep -i frog && curl -s http://localhost:8080 | grep -i frog`
 
 
 The nginix based load balancer(lbr) will be switching between 4 different web servers named "client" ( with hostname displayed for each request)
