@@ -36,7 +36,7 @@ use curl command from  your terminal in your pc/workstation and go to http://loc
 
 `curl -s http://localhost:8080/?update_=10 | grep -i frog`
 
-## Testing multiple requeests at once
+## Testing multiple requests at once
 
 `curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080 && curl -s http://localhost:8080`
 
