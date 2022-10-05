@@ -15,9 +15,7 @@ First, you will need to make sure git, Docker and Docker compose are installed o
 
 ## Clone the project 
 
-`$ git clone https://github.com/naren-sre
-
-/frog-project.git `
+`$ git clone https://github.com/naren-sre/frog-project.git `
 
 ## Run the application using docker compose 
 After downloading the files as shown above run the follwing command
@@ -30,7 +28,7 @@ After downloading the files as shown above run the follwing command
 
 `$ docker ps`
 
-The app has been sclated to 4 repliacas in the dockercompose.ymlnginx web servers and one load balancer.
+The app has been scaled to 4 repliacas in the dockercompose.ymlnginx web servers and one load balancer.
 
 
 ## Testing:
@@ -51,7 +49,7 @@ Use this command to bring the contianers down.
 `$docker-compose down`
 
 Sources referred.:
-https://hub.docker.com/_/nginx
+https://hub.docker.com/_/ nginx
 
 https://stackoverflow.com/questions/24168129/use-hostname-in-sed-substitution
 
