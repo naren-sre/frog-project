@@ -15,7 +15,9 @@ First, you will need to make sure git, Docker and Docker compose are installed o
 
 ## Clone the project 
 
-`$ git clone https://github.com/nmandalapu/test_project.git `
+`$ git clone https://github.com/naren-sre
+
+/frog-project.git `
 
 ## Run the application using docker compose 
 After downloading the files as shown above run the follwing command
