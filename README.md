@@ -25,7 +25,11 @@ After downloading the files as shown above run the follwing command
 `$ docker-compose up -d --build`
 
 ## Check the status of the app 
+
 `$ docker ps`
+
+The app has been sclated to 4 repliacas in the dockercompose.ymlnginx web servers and one load balancer.
+
 
 ## Testing:
 use curl command from  your terminal in your pc/workstation and go to http://localhost:8080
