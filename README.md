@@ -32,7 +32,9 @@ The app has been scaled to 4 repliacas in the dockercompose.ymlnginx web servers
 
 
 ## Testing:
-use curl command from  your terminal in your pc/workstation and go to http://localhost:8080
+use curl command from  your terminal in your pc/workstation and go to http://localhost:8080 to verify the webpage 
+
+OR we can use curl to send http request from terminal
 
 `curl -s http://localhost:8080 | grep -i frog`
 
